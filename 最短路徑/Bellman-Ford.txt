@@ -1,0 +1,19 @@
+Bellman-Ford  != Greedy Algorith
+Dijkstra's  = Greedy
+
+
+
+Simpe Path = no repeated edge一條路徑
+
+1  -- > 2  -- > 3 ---> 4
+最多行3條邊..但有更多的邊代表有重覆的vertex...代表有cycle..就最短路徑走cycle是多餘的
+
+選代最少3次就一定找到最短路徑
+
+O( |V| * |E| )
+
+-----------------------------
+Dijkstra's Algorithm
+
+Unvisited Note [      }
+ 
